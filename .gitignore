@@ -1,0 +1,7 @@
+features/
+models/
+processed_data/
+raw_data/train/*.zip
+raw_data/test/*.zip
+test.py
+submission.csv
