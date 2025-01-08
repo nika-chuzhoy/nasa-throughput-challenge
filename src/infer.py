@@ -82,8 +82,7 @@ def predict(models, data):
 
 def infer():
     airport_dfs = {}
-    # airports = ['KATL', 'KCLT', 'KDEN', 'KDFW', 'KJFK', 'KMEM', 'KMIA', 'KORD', 'KPHX', 'KSEA']
-    airports = ['KATL', 'KCLT', 'KDFW', 'KMEM']
+    airports = ['KATL', 'KCLT', 'KDEN', 'KDFW', 'KJFK', 'KMEM', 'KMIA', 'KORD', 'KPHX', 'KSEA']
     submission_format = pd.read_csv('raw_data/submission_format.csv')
 
     for airport in airports:

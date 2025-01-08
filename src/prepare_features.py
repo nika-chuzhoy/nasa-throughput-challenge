@@ -232,9 +232,7 @@ def add_labels(features, airport):
 if __name__ == "__main__":
     os.makedirs('features/train', exist_ok=True)
     os.makedirs('features/test', exist_ok=True)
-    # airports = ['KATL', 'KCLT', 'KDEN', 'KDFW', 'KJFK', 'KMEM', 'KMIA', 'KORD', 'KPHX', 'KSEA']
-
-    airports = ['KDFW']
+    airports = ['KATL', 'KCLT', 'KDEN', 'KDFW', 'KJFK', 'KMEM', 'KMIA', 'KORD', 'KPHX', 'KSEA']
 
     # Add most important features - tfm and tbfm preds
     for airport in airports:

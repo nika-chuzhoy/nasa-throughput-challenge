@@ -193,8 +193,7 @@ def main(df):
 
 if __name__ == "__main__":
     os.makedirs('models', exist_ok=True)
-    # airports = ['KATL', 'KCLT', 'KDEN', 'KDFW', 'KMEM', 'KMIA', 'KORD', 'KPHX', 'KSEA', 'KJFK']
-    airports = ['KDFW']
+    airports = ['KATL', 'KCLT', 'KDEN', 'KDFW', 'KMEM', 'KMIA', 'KORD', 'KPHX', 'KSEA', 'KJFK']
 
     for airport in airports:
         features = pd.read_csv(f'features/train/{airport}_features.csv')
